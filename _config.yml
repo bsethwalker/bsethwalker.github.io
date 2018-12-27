@@ -16,7 +16,7 @@
 title: bsethwalker
 email: email@default.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a Principal Data Scientist with LexisNexis Risk Solution's HealthCare Division), 
+  I'm a Principal Data Scientist with LexisNexis Risk Solution's HealthCare Division, 
   a Teaching Fellow for Harvard IACS's Intro/Advanced Data Science course sequence, 
   and a Harvard University Graduate Student.
 baseurl: "" # the subpath of your site, e.g. /blog
