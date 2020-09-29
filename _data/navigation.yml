@@ -1,0 +1,9 @@
+# Pages for navigation
+- name: Home
+  link: /
+#- name: About
+#  link: /about/
+- name: Background
+  link: /background/
+#- name: Blog
+#  link: /blog/

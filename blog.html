@@ -1,0 +1,24 @@
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: default
+permalink: /blog/
+---
+
+<h3>Posts</h3>
+
+{% for post in site.posts %}
+<div class="card mb-3" style="">
+  <div class="row no-gutters">
+    <div class="col-md-12">
+      <div class="card-body">
+        <h5 class="card-title mb-0">{{ post.title }}</h5>
+        <p class="card-text"><small class="text-muted">By: {{ post.author }} - {{ post.date | date_to_string }}</small></p>
+        <p class="card-text">{{ post.description }}</p>
+        <a href="{{ post.url }}" class="btn btn-primary">Read More</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}
